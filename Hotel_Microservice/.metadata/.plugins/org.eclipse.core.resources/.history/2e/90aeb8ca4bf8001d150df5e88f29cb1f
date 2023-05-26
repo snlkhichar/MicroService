@@ -1,0 +1,20 @@
+package com.lcwd.user.service.external.services;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.lcwd.user.service.entities.Rating;
+
+@FeignClient
+public interface RatingService {
+	
+	
+	//post
+	@PostMapping("/ratings")
+	public Rating createRating();
+	
+	
+	//put
+	public Rating updateRating();
+
+}

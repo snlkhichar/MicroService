@@ -1,0 +1,8 @@
+package com.lcwd.rating.services.impl;
+
+import com.lcwd.rating.services.RatingService;
+
+public class RatingServiceImpl implements RatingService {
+
+	
+}

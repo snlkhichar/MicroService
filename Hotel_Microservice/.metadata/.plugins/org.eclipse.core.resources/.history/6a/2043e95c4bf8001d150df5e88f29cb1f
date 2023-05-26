@@ -1,0 +1,14 @@
+package com.lcwd.user.service.external.services;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+import com.lcwd.user.service.entities.Rating;
+
+@FeignClient
+public interface RatingService {
+	
+	
+	//post
+	public Rating createRating();
+
+}

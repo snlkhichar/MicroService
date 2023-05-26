@@ -1,0 +1,16 @@
+package com.lcwd.user.service.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.lcwd.user.service.services.UserService;
+
+@RestController
+@RequestMapping("/users")
+public class UserController 
+{
+	private UserService userService;
+	//Create
+	
+
+}

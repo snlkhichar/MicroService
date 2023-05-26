@@ -1,0 +1,14 @@
+package com.lcwd.hotel.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.lcwd.hotel.services.HotelService;
+
+@RestController
+@RequestMapping("/hotels")
+public class HotelController {
+	
+	private HotelService hotelService;
+
+}

@@ -1,0 +1,11 @@
+package com.lcwd.rating.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.lcwd.rating.entities.Rating;
+
+public interface RatingRepository extends JpaRepository<Rating, String> 
+{
+	//custom finder method
+
+}

@@ -1,0 +1,29 @@
+package com.lcwd.hotel.services.impl;
+
+import java.util.List;
+
+import com.lcwd.hotel.entites.Hotel;
+import com.lcwd.hotel.services.HotelService;
+
+public class HotelServiceImpl implements HotelService 
+{
+
+	@Override
+	public Hotel create(Hotel hotel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Hotel> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Hotel get(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

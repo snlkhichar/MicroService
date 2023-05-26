@@ -1,0 +1,23 @@
+package com.lcwd.user.service;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.lcwd.rating.entities.Rating;
+
+@SpringBootTest
+class UserServiceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+	
+	@Test
+	void createRating()
+	{
+		Rating rating = new Rating(10,"1","2","this is created by feign client");
+		Rating saveRating = ratingService.create(rating);
+		System.out.println(saveRating);
+	}
+}
